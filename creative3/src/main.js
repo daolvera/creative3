@@ -7,7 +7,7 @@ import mock from './mock-data.js'
 Vue.config.productionTip = false
 
 let data = {
-  todoItems: mock,
+  todoItems: mock
 }
 
 new Vue({

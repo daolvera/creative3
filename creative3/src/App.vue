@@ -3,12 +3,22 @@
   <div id="menu">
     <div id="brand">
       <router-link to="/">
-        <img src="/images/logo.png">
+        <div class='logo'>
+          <img src="/images/logo.png"> 
+          <h1> ue Teams </h1>
+        </div>
+      </router-link>
+    </div>
+    <div id="side">
+      <router-link to="/individual">
+        <div class="menu-item individual">
+          <p>Individual Tasks</p>
+        </div>
       </router-link>
     </div>
   </div>
   <router-view />
-  <div class ='footer'>
+  <div class='footer'>
     <a href='https://github.com/daolvera/creative3'> GitHub Repository</a>
   </div>
 </div>
@@ -32,37 +42,41 @@ body {
   margin: 50px 100px;
 
 }
+.wrapper{
+  width: 100%;
+}
 
 #menu {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 5px;
-  grid-template-areas: "none brand side";
+  display: flex;
   margin-bottom: 50px;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
 }
 
 #menu a {
   color: #B84901;
+  text-decoration: none;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 #brand {
-  grid-area: brand;
   display: flex;
   justify-content: center;
 }
 
 #brand img {
-  height: 200px;
+  height: 40px;
 }
 
 #side {
-  grid-area: side;
   display: flex;
-  justify-content: flex-end;
-}
-
-#side img {
-  width: 50px;
+  justify-content: center;
 }
 
 .menu-item {
@@ -74,8 +88,8 @@ body {
   margin: 0px;
 }
 
-.browse {
-  margin-right: 50px;
+.individual{
+  margin-right: 0px;
 }
 
 #nav {
@@ -85,6 +99,7 @@ body {
 #nav a {
   font-weight: bold;
   color: #2c3e50;
+  text-decoration: none;
 }
 
 #nav a.router-link-exact-active {

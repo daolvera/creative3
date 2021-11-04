@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Individual from '../views/Individual.vue'
 // import { component } from 'vue/types/umd'
 
 Vue.use(VueRouter)
@@ -10,6 +11,11 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/individual',
+    name: 'Indivdual',
+    component: Individual
   },
 ]
 

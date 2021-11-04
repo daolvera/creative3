@@ -24,12 +24,19 @@ export default {
     }
   },
   computed: {
-    products() {
+    todoItems() {
       return this.$root.$data.todoItems.filter(todoItem => todoItem.name.toLowerCase().search(this.searchText.toLowerCase()) >= 0);
     }
   },
 }
 </script>
+
+<style>
+.wrapper {
+  width: 100%;
+  background-color: #d3d3d3;
+}
+</style>
 
 <style scoped>
 .wrapper {
