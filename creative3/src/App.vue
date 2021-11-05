@@ -10,11 +10,17 @@
       </router-link>
     </div>
     <div id="side">
+      <router-link to="/">
+        <div class='menu-item home'>
+          <p> Calendar View </p>
+        </div>
+      </router-link>
       <router-link to="/individual">
         <div class="menu-item individual">
           <p>Individual Tasks</p>
         </div>
       </router-link>
+
     </div>
   </div>
   <router-view />
@@ -39,8 +45,8 @@
 }
 
 body {
-  margin: 50px 100px;
-
+  width: 100%;
+  background-color: #31475e; 
 }
 .wrapper{
   width: 100%;
@@ -52,10 +58,11 @@ body {
   justify-content: center;
   align-content: center;
   flex-direction: column;
+  background-color: #d3d3d3;
 }
 
 #menu a {
-  color: #B84901;
+  color: #3fb984;
   text-decoration: none;
 }
 .logo{
@@ -76,7 +83,12 @@ body {
 
 #side {
   display: flex;
-  justify-content: center;
+  margin-bottom: 20px;
+  justify-content: space-around;
+}
+#side a{
+  color: #31475e;
+
 }
 
 .menu-item {
@@ -112,7 +124,7 @@ body {
 	height: 70px;
 	margin: auto;
 	width: 100%;
-	background-color:#f2591d;
+	background-color:#3fb984;
 }
 .footer a{
 	text-decoration: none;
