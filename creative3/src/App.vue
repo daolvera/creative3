@@ -20,7 +20,11 @@
           <p>Individual Tasks</p>
         </div>
       </router-link>
-
+      <router-link to="/news">
+        <div class="menu-item news">
+          <p>News</p>
+        </div>
+      </router-link>
     </div>
   </div>
   <router-view />
@@ -38,7 +42,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #31475e;
 }
 * {
   box-sizing: border-box;
@@ -54,7 +58,7 @@ body {
 
 #menu {
   display: flex;
-  margin-bottom: 50px;
+  border-bottom: 5px solid #31475e;
   justify-content: center;
   align-content: center;
   flex-direction: column;

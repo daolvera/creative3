@@ -1,12 +1,15 @@
 <template>
 <div class='wrapper'>
-  <div class="pure-menu pure-menu-horizontal">
-    <ul class="pure-menu-list">
-      <li class="pure-menu-item"><a @click="select('Daniel')" href="#" class="pure-menu-link">Daniel</a></li>
-      <li class="pure-menu-item"><a @click="select('Sadie')" href="#" class="pure-menu-link">Sadie</a></li>
-      <li class="pure-menu-item"><a @click="select('Tyler')" href="#" class="pure-menu-link">Tyler</a></li>
-      <li class="pure-menu-item"><a @click="select('Jeffery')" href="#" class="pure-menu-link">Jeffery</a></li>
-    </ul>
+  <div class="individual-menu">
+    <div class="menu-header">
+      <p> Sort By Employee </p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><a @click="select('Daniel')" href="#" class="menu-link">Daniel</a></div>
+      <div class="menu-item"><a @click="select('Sadie')" href="#" class="menu-link">Sadie</a></div>
+      <div class="menu-item"><a @click="select('Tyler')" href="#" class="menu-link">Tyler</a></div>
+      <div class="menu-item"><a @click="select('Jeffery')" href="#" class="menu-link">Jeffery</a></div>
+    </div>
   </div>
   <todoList :todoItems="todoItems" />
 </div>
@@ -21,7 +24,8 @@ export default {
   },
   data() {
     return {
-      name: '',
+      name: 'date',
+      type:'',
     }
   },
   computed: {
@@ -32,7 +36,36 @@ export default {
   methods: {
     select(name) {
       this.name = name;
-    }
+    },
   }
 }
 </script>
+
+<style scoped>
+.individual-menu{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  flex-direction: column;
+  border-bottom: 5px solid #31475e;
+}
+.menu-list{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.menu-list a{
+  font-size: 15px;
+  text-decoration: none;
+}
+.menu-header{
+  display: flex;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.menu-item{
+  display: flex;
+}
+</style>

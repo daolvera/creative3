@@ -1,22 +1,18 @@
 <template>
 <div>
   <div class="wrapper">
-    <div class="search">
-      <form class="pure-form">
-        <i class="fas fa-search"></i><input v-model="searchText" />
-      </form>
-    </div>
+    <h2 class='month-name'> November </h2>
   </div>
-  <todoList :todoItems="todoItems" />
+  <calendarView :todoItems="todoItems" />
 </div>
 </template>
 
 <script>
-import todoList from "../components/todoList.vue"
+import CalendarView from '../components/calendarView.vue';
 export default {
   name: 'Home',
   components: {
-    todoList
+    CalendarView
   },
   data() {
     return {
