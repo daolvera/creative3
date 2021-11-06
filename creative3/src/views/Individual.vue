@@ -24,8 +24,7 @@ export default {
   },
   data() {
     return {
-      name: 'date',
-      type:'',
+      name: 'Daniel',
     }
   },
   computed: {
@@ -67,5 +66,22 @@ export default {
 }
 .menu-item{
   display: flex;
+}
+
+@media (min-width: 768px) {
+  .menu-header{
+    font-size: 30px;
+  }
+  .menu-list a{
+    font-size: 22px;
+  }
+}
+@media (min-width: 1280px){
+  .menu-header{
+    font-size: 35px;
+  }
+  .menu-list a{
+    font-size: 28px;
+  }
 }
 </style>

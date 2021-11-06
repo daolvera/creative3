@@ -9,7 +9,7 @@ let mock = [{
   },
   {
     id: 2,
-    desc: "Check in on party planning",
+    desc: "Party planning",
     priority: "low",
     name: "Tyler",
     date: "11/3/2021",
@@ -46,11 +46,11 @@ let mock = [{
   },
   {
     id: 6,
-    desc: "Allocate funds to the research",
+    desc: "Fund research",
     priority: "low",
     name: "Tyler",
-    date: '11/7/2021',
-    day: 7,
+    date: '11/10/2021',
+    day: 10,
     done: "false"
   },
   {
@@ -101,7 +101,7 @@ let mock = [{
   },
   {
     id: 12,
-    desc: "Lead weekly team meeting",
+    desc: "Weekly team meeting",
     priority: "medium",
     name: "Sadie",
     date: "11/8/2021",
@@ -149,8 +149,8 @@ let mock = [{
     desc: "Daily Reporting",
     priority: "low",
     name: "Tyler",
-    date: "11/14/2021",
-    day: 14,
+    date: "11/13/2021",
+    day: 13,
     done: "false"
   },
   {
@@ -158,8 +158,8 @@ let mock = [{
     desc: "Client meeting",
     priority: "high",
     name: "Sadie",
-    date: "11/14/2021",
-    day: 14,
+    date: "11/15/2021",
+    day: 15,
     done: "false"
   },
   {
@@ -191,7 +191,7 @@ let mock = [{
   },
   {
     id: 22,
-    desc: "Financial review with the Board",
+    desc: "Board financial review",
     priority: "medium",
     name: "Tyler",
     date: "11/16/2021",
@@ -200,20 +200,20 @@ let mock = [{
   },
   {
     id: 219,
-    desc: "Give presentation to other employees",
+    desc: "Employee Presentation",
     priority: "low",
     name: "Tyler",
-    date: "11/19/2021",
-    day: 19,
+    date: "11/17/2021",
+    day: 17,
     done: "false"
   },
   {
     id: 24,
-    desc: "Give presentation to managers",
+    desc: "Manager presentation",
     priority: "medium",
     name: "Tyler",
-    date: "11/19/2021",
-    day: 19,
+    date: "11/18/2021",
+    day: 18,
     done: "false"
   },
   {
@@ -230,8 +230,8 @@ let mock = [{
     desc: "Staff birthday plan",
     priority: "low",
     name: "Sadie",
-    date: "11/21/2021",
-    day: 21,
+    date: "11/20/2021",
+    day: 20,
     done: "false"
   },
   {
@@ -239,14 +239,14 @@ let mock = [{
     desc: "Staff birthday party",
     priority: "medium",
     name: "Sadie",
-    date: "11/21/2021",
-    day: 21,
+    date: "11/20/2021",
+    day: 20,
     done: "false"
 
   },
   {
     id: 28,
-    desc: "Start financial review of the managers",
+    desc: "Review of Managers",
     priority: "low",
     name: "Tyler",
     date: "11/21/2021",
@@ -255,7 +255,7 @@ let mock = [{
   },
   {
     id: 29,
-    desc: "Deadline for monthly financial review",
+    desc: "Financial review",
     priority: "high",
     name: "Tyler",
     date: "11/21/2021",
@@ -264,7 +264,7 @@ let mock = [{
   },
   {
     id: 30,
-    desc: "Employee review of performance",
+    desc: "Employee performance Review",
     priority: "low",
     name: "Daniel",
     date: "11/22/2021",
@@ -274,7 +274,7 @@ let mock = [{
   },
   {
     id: 31,
-    desc: "Finish employee reviews",
+    desc: "Employee reviews",
     priority: "medium",
     name: "Daniel",
     date: "11/23/2021",
@@ -283,7 +283,7 @@ let mock = [{
   },
   {
     id: 32,
-    desc: "Deadline for manager review",
+    desc: "Manager review",
     priority: "high",
     name: "Daniel",
     date: "11/23/2021",
@@ -311,7 +311,7 @@ let mock = [{
   },
   {
     id: 35,
-    desc: "Virtual finance review with Sadie",
+    desc: "Virtual review w/ Sadie",
     priority: "medium",
     name: "Tyler",
     date: "11/26/2021",
@@ -320,7 +320,7 @@ let mock = [{
   },
   {
     id: 36,
-    desc: "Meet with Tyler to Discuss finances",
+    desc: "Meet w/ Tyler",
     priority: "medium",
     name: "Sadie",
     date: "11/26/2021",
@@ -329,7 +329,7 @@ let mock = [{
   },
   {
     id: 37,
-    desc: "Meeting with Jeffery",
+    desc: "Meeting w/ Jeffery",
     priority: "high",
     name: "Sadie",
     date: "11/26/2021",
@@ -338,7 +338,7 @@ let mock = [{
   },
   {
     id: 38,
-    desc: "Meeting with Sadie",
+    desc: "Meeting w/ Sadie",
     priority: "medium",
     name: "Jeffery",
     date: "11/22/2021",
@@ -347,7 +347,7 @@ let mock = [{
   },
   {
     id: 39,
-    desc: "Meeting with Tyler",
+    desc: "Meeting w/ Tyler",
     priority: "low",
     name: "Daniel",
     date: "11/28/2021",
@@ -365,7 +365,7 @@ let mock = [{
   },
   {
     id: 41,
-    desc: "Meeting with Daniel",
+    desc: "Meeting w/ Daniel",
     priority: "medium",
     name: "Tyler",
     date: '11/28/2021',
@@ -374,7 +374,7 @@ let mock = [{
   },
   {
     id: 42,
-    desc: "Validate tax and consent forms",
+    desc: "Validate forms",
     priority: "medium",
     name: "Tyler",
     date: '11/29/2021',
@@ -383,7 +383,7 @@ let mock = [{
   },
   {
     id: 43,
-    desc: "Vacation start, finish monthly work",
+    desc: "Monthly work",
     priority: "high",
     name: "Daniel",
     date: '11/29/2021',
@@ -404,8 +404,8 @@ let mock = [{
     desc: "Virtual board meeting",
     priority: "low",
     name: "Daniel",
-    date: '11/30/2021',
-    day: 30,
+    date: '11/25/2021',
+    day: 25,
     done: "false"
   },
   {
@@ -419,7 +419,7 @@ let mock = [{
   },
   {
     id: 47,
-    desc: "End of month budget review",
+    desc: "Budget review",
     priority: "high",
     name: "Tyler",
     date: '11/30/2021',
@@ -428,7 +428,7 @@ let mock = [{
   },
   {
     id: 48,
-    desc: "Present on end of month stats",
+    desc: "Month End stats",
     priority: "high",
     name: "Tyler",
     date: '11/30/2021',
@@ -437,11 +437,11 @@ let mock = [{
   },
   {
     id: 49,
-    desc: "Attend monthly client performance meeting",
+    desc: "Performance meeting",
     priority: "low",
     name: "Jeffery",
-    date: '11/30/2021',
-    day: 30,
+    date: '11/27/2021',
+    day: 27,
     done: "false"
   },
   {
@@ -449,8 +449,8 @@ let mock = [{
     desc: "Send forms into hr",
     priority: "medium",
     name: "Tyler",
-    date: '11/30/2021',
-    day: 30,
+    date: '11/27/2021',
+    day: 27,
     done: "false"
   }
 ]

@@ -34,7 +34,7 @@
 
 <style scoped>
 .todoItem{
-	border: 1px solid black
+	border: 1px solid black;
 }
 .info{
 	display:flex;
@@ -71,5 +71,24 @@
 	align-content: center;
 	align-items: center;
 	width: 30%;
+}
+@media (min-width: 768px) {
+	.todoItems{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.todoItem{
+		width: 45%;
+		margin-top: 20px;
+		font-size: 18px;
+		margin-bottom: 20px;
+	}
+}
+@media (min-width: 1280px){
+	.todoItem{
+		width: 30%;
+		font-size: 22px;
+	}
 }
 </style>

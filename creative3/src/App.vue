@@ -136,4 +136,22 @@ body {
 	color: #fbf8fd;
 	opacity: .8;
 }
+
+
+@media (min-width: 768px) {
+  #menu a {
+    font-size: 20px;
+  }
+  #brand img {
+    height: 50px;
+  }
+}
+@media (min-width: 1280px){
+  #menu a{
+    font-size: 25px;
+  }
+  #brand img {
+    height: 60px;
+  }
+}
 </style>
