@@ -1,4 +1,6 @@
-This is a creative project, so you are welcome to build what you would like. It should not be too similar to the website you built for Lab 3a or 3b. You must create your own original work.  The basic requirements are:
+Project uses vue to do a monthly work calender.
+
+Assignment Readme: This is a creative project, so you are welcome to build what you would like. It should not be too similar to the website you built for Lab 3a or 3b. You must create your own original work.  The basic requirements are:
 
 The site uses Vue and the Vue CLI
 The site has at least three pages
